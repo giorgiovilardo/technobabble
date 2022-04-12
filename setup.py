@@ -18,14 +18,14 @@ resource_files = [
 
 setuptools.setup(
     name="technobabble",
-    version="1.0.0",
+    version="1.0.1",
     author="Giorgio Vilardo",
     description="Technobabble will own your soul",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    data_files=[("", json_files), ("sassafras", resource_files)],
+    # data_files=[("", json_files), ("sassafras", resource_files)],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
